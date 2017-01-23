@@ -15,7 +15,7 @@ public class ExampleRunner extends AndroidJUnitRunner {
 
     @Override
     public void onStart() {
-        setLocale("ar", "QA", InstrumentationRegistry.getTargetContext());
+        setLocale("ar", "XB", InstrumentationRegistry.getTargetContext());
 
         super.onStart();
     }
